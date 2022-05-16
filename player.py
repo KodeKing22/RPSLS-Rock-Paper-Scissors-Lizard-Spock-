@@ -1,8 +1,9 @@
 class Player:
-    def __init__(self):
-        self.name = ''
+    def __init__(self, player):
+        self.name = player
         self.gesture = []
         self.score = 0
-        pass
-    def record(self):
         
+    
+    def players(self):
+        pass

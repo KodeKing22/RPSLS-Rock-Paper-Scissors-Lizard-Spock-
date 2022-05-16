@@ -1,49 +1,34 @@
 import random
 from player import Player
 
+class Game:
+
+    def __init__(self):
+
 
 def display_welcome():
-    pass
-# Welcome to RPSLS Rock, Paper, Scissors, Lizard, Spock!
-name_gestures=['rock', 'paper', 'scissors', 'lizard', 'spock']
+    print ('Welcome to RPSLS Rock, Paper, Scissors, Lizard, Spock!')
+    print('\n')
+    
+
 
 def display_rules():
-    rock=0
-    paper=1
-    scissors=2
-    lizard=3
-    spock=4
-
-    rock>scissors
-    scissors>paper
-    paper>rock
-    rock>lizard
-    lizard>spock
-    paper>spock
-    spock>scissors
-    spock>rock
-    scissors>lizard
-    lizard>paper
+    
+    print('Each match will be best of three games\n' 'Use number key to enter your selection')
+    print('Rock crushes Scissors\n Scissors cuts Paper\n Paper covers Rock\n Rock crushes Lizard\n Lizard poisons Spock\n Spock smashes Scissors\n Scissors decapitates Lizard\n Lizard eats Paper\n Paper disproves Spock\n Spock vaporizes Rock')
 
 
 def run_game():
-    print ('Welcome to RPSLS Rock, Paper, Scissors, Lizard, Spock!')
-    # print player 1 vs player 2
-    
-# Rock='Rock'
-# Scissors= 'Scissors'
-# Rock > Scissors 
-# Scissors cuts Paper 
-# Paper covers Rock 
-# Rock crushes Lizard 
-# Lizard poisons Spock 
-# Spock smashes Scissors 
-# Scissors decapitates Lizard 
-# Lizard eats Paper
-# Paper disproves Spock 
-# Spock vaporizes Rock
+    display_welcome()
+    display_rules()
+    whos_playing()
 
-
-def number_of_players():
+       
+def whos_playing():
+    one_player_game = input('Would you like to play the computer? y/n')
+    if one_player_game == 'y':
+        human.player.one 
+    elif one_player_game == 'n':
+        human.player.two
     pass 
 # User input on number of players
