@@ -1,6 +1,8 @@
 import random
+import winsound
 from player import Player
 from human import Human
+from ai import Ai
 
 class Game:
 
@@ -20,14 +22,21 @@ class Game:
         print('Each match will be best of three games\n''Use number key to enter your selection')
         print('Rock crushes Scissors\n Scissors cuts Paper\n Paper covers Rock\n Rock crushes Lizard\n Lizard poisons Spock\n Spock smashes Scissors\n Scissors decapitates Lizard\n Lizard eats Paper\n Paper disproves Spock\n Spock vaporizes Rock')
 
-
-
-  
-
-
-
+# Rock crushes Scissors 
+# Scissors cuts Paper 
+# Paper covers Rock 
+# Rock crushes Lizard 
+# Lizard poisons Spock 
+# Spock smashes Scissors 
+# Scissors decapitates 
+# Lizard Lizard eats Paper
+# Paper disproves Spock 
+# Spock vaporizes Rock
+    
     def comparing_gestures ():
-        if self.player_one 
+        if self.player_one 'Rock':
+
+
 
 
     def run_game():
@@ -39,8 +48,8 @@ class Game:
     def whos_playing():
         one_player_game = input('Would you like to play the computer? y/n')
         if one_player_game == 'y':
-            human.player.one 
+            self.player_two = Ai(Player)
         elif one_player_game == 'n':
-            human.player.two
-            pass 
+            self.player_two = Human(Player)
+            
 # User input on number of players
