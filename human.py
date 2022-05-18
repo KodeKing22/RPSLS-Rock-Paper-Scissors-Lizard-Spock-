@@ -1,7 +1,7 @@
 from player import Player
 class Human(Player):
     def __init__(self):
-        super().__init__()
+        super().__init__
         
     def choose_gesture(self):
 
@@ -13,4 +13,9 @@ class Human(Player):
         elif selected_gesture == '2':
             self.selected_gesture = self.gestures [1]
         elif selected_gesture == '3':
-            self
+            self.selected_gesture = self.gestures [2]
+        elif selected_gesture == '4':
+            self.selected_gesture = self.gestures [3]
+        elif selected_gesture == '5':
+            self.selected_gesture = self.gestures [4]
+
